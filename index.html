@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pronunciation Survey – Evolution of Indian English – Per-Word IPA and Variants (A–F)</title>
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --card: #111827;
+      --muted: #6b7280;
+      --text: #e5e7eb;
+      --accent: #60a5fa;
+      --accent-2: #34d399;
+      --warn: #f59e0b;
+      --err: #ef4444;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial;
+      color: var(--text);
+      background: radial-gradient(1200px 800px at 10% -10%, #1f2937 0, transparent 60%),
+                  radial-gradient(900px 600px at 110% -20%, #1b2532 0, transparent 60%),
+                  var(--bg);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    header { display: grid; gap: 12px; margin-bottom: 12px; }
+    h1 { margin: 0; font-size: 28px; letter-spacing: .2px; }
+    p.lead { margin: 0; color: var(--muted); }
+    .controls { display: grid; gap: 12px; grid-template-columns: 1fr; margin: 16px 0 24px; }
+    @media (min-width: 720px) { .controls { grid-template-columns: 1fr 320px; align-items: center; } }
+    .search { display: flex; gap: 8px; }
+    .search input { flex: 1; padding: 12px 14px; border-radius: var(--radius); border: 1px solid #243244; background: #0f172a; color: var(--text); }
+    .pillbar { display: flex; gap: 8px; flex-wrap: wrap; }
+    .pill { padding: 8px 12px; border-radius: 999px; border: 1px solid #223047; background: #0c1220; color: var(--muted); font-size: 13px; cursor: default; }
+    .pill strong { color: var(--text); }
+    .grid { display: grid; gap: 14px; }
+    @media (min-width: 720px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    .card { background: linear-gradient(180deg, #0e1626, #0b1220); border: 1px solid #1e293b; border-radius: var(--radius); padding: 16px; position: relative; }
+    .card h3 { margin: 0 0 8px; font-size: 18px; }
+    .ipa { color: var(--muted); font-size: 13px; margin: 0 0 12px; min-height: 16px; }
+    .row { display: grid; gap: 8px; grid-template-columns: 1fr 1fr 1fr; }
+    .option { display: grid; gap: 6px; padding: 10px; border: 1px dashed #263246; border-radius: 12px; background: #0b1426; }
+    .option label { font-size: 13px; color: var(--muted); }
+    .option .btns { display: flex; gap: 8px; }
+    button, select { padding: 10px 12px; border-radius: 12px; border: 1px solid #1f2c42; background: #0d1b2e; color: var(--text); cursor: pointer; font-size: 14px; }
+    button:hover { filter: brightness(1.15); }
+    button.primary { background: #0b2a4a; border-color: #1e3a5f; }
+    button.good { background: #0a2e26; border-color: #1d4d44; }
+    button.warn { background: #3a2506; border-color: #7c4a0a; }
+    .select-wrap { display: flex; gap: 8px; align-items: center; margin-top: 10px; }
+    .select-wrap select { flex: 1; }
+    footer { position: sticky; bottom: 0; backdrop-filter: blur(6px); background: rgba(9,14,22,.85); border-top: 1px solid #1e293b; margin-top: 18px; }
+    .bar { max-width: 1100px; margin: 0 auto; display: grid; gap: 10px; grid-template-columns: 1fr auto auto auto; padding: 12px 24px; align-items: center; }
+    .bar .status { color: var(--muted); font-size: 14px; }
+    .hr { height: 1px; background: #1e293b; margin: 12px 0; }
+    .note { color: var(--muted); font-size: 12px; }
+    details { border: 1px solid #223047; border-radius: 12px; background: #0b1426; }
+    summary { padding: 10px 12px; cursor: pointer; }
+    details .content { padding: 0 12px 12px; }
+    .small { font-size: 12px; color: var(--muted); }
+    .hidden { display: none !important; }
+    .admin { border-left: 3px solid var(--accent-2); padding-left: 10px; margin-top: 10px; }
+    .admin input { width: 100%; padding: 6px 8px; border-radius: 8px; border: 1px solid #243244; background: #0f172a; color: var(--text); }
+    .admin label { font-size: 12px; color: var(--muted); display:block; margin: 6px 0 2px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Pronunciation Survey</h1>
+      <p class="lead">Each card has its own IPA and audio variants (A–F, up to six variants). Nothing is shared across words, except forms of the same word.</p>
+      <div class="controls">
+        <div class="search">
+          <input id="search" placeholder="Filter words … (e.g. direction, schedule, vitamin)" />
+        </div>
+        <div class="pillbar">
+          <div class="pill">Answered: <strong id="answered">0</strong>/<strong id="total">0</strong></div>
+          <div class="pill">Unanswered: <strong id="unanswered">0</strong></div>
+          <div class="pill">Saved locally</div>
+        </div>
+      </div>
+      <details>
+        <summary>Instructions</summary>
+        <div class="content">
+          <ol>
+            <li>Every word is its own entry: unique IPA + up to six variants (A–F).</li>
+            <li>Simply select your preferred pronunciation variant from the drop down menu.</li>
+            <li>When you are done, hit the export selections button. Rename the .json file that downloads and send it to me by email.</li>
+          </ol>
+          <div class="hr"></div>
+          <p class="note">Thanks for participating!</p>
+        </div>
+      </details>
+    </header>
+
+    <div id="grid" class="grid"></div>
+  </div>
+
+  <footer>
+    <div class="bar">
+      <div class="status" id="status">Selections will be saved locally until you submit.</div>
+      <button id="toggleEdit" class="primary">Enable Edit Mode</button>
+      <button id="exportDataBtn" class="good">Export DATA JSON</button>
+      <button id="exportBtn" class="warn">Export Selections</button>
+    </div>
+  </footer>
+
+  <!-- ======= DATA LOADER ======= -->
+  <script>
+    const AUDIO_BASE = "audio/";
+    const variantKeys = ["A","B","C","D","E","F"];
+    let DATA = [];
+
+    fetch("data.json")
+      .then(res => res.json())
+      .then(json => { DATA = json; render(); })
+      .catch(err => {
+        console.error("Could not load data.json:", err);
+        document.getElementById("status").textContent = "Error: could not load data.json";
+      });
+  </script>
+
+  <!-- ======= APP ======= -->
+  <script>
+    const grid = document.getElementById('grid');
+    const searchInput = document.getElementById('search');
+    const answeredEl = document.getElementById('answered');
+    const totalEl = document.getElementById('total');
+    const unansweredEl = document.getElementById('unanswered');
+    const exportBtn = document.getElementById('exportBtn');
+    const exportDataBtn = document.getElementById('exportDataBtn');
+    const toggleEditBtn = document.getElementById('toggleEdit');
+
+    const STORAGE_KEY = 'pronun_survey_v2';
+    const ADMIN_KEY = 'pronun_admin_v2';
+
+    const state = {
+      selections: loadSelections(),
+      filtered: [],
+      edit: false,
+      adminEdits: loadAdminEdits()
+    };
+
+    function loadSelections(){ try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch { return {}; } }
+    function saveSelections(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(state.selections)); updateCounters(); }
+    function loadAdminEdits(){ try { return JSON.parse(localStorage.getItem(ADMIN_KEY)) || {}; } catch { return {}; } }
+    function saveAdminEdits(){ localStorage.setItem(ADMIN_KEY, JSON.stringify(state.adminEdits)); }
+
+    function updateCounters(){
+      const total = DATA.length;
+      const answered = Object.keys(state.selections).length;
+      const unanswered = total - answered;
+      answeredEl.textContent = answered;
+      totalEl.textContent = total;
+      unansweredEl.textContent = unanswered;
+    }
+
+    function play(id){
+      const el = document.getElementById(id);
+      if(!el) return;
+      document.querySelectorAll('audio').forEach(a => { if(a!==el){ a.pause(); a.currentTime = 0; }});
+      el.play();
+    }
+
+    function escapeHTML(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+    function notify(msg){ document.getElementById('status').textContent = msg; }
+
+    function applyAdminEdits(entry){
+      const edit = state.adminEdits[entry.word];
+      if (!edit) return entry;
+      const out = JSON.parse(JSON.stringify(entry));
+      if (typeof edit.ipa === 'string') out.ipa = edit.ipa;
+      if (edit.audio) {
+        out.audio = out.audio || {};
+        for (const k of variantKeys) {
+          if (edit.audio[k]) {
+            out.audio[k] = {
+              label: edit.audio[k].label ?? (out.audio[k]?.label ?? ("Variant " + k)),
+              src:   edit.audio[k].src   ?? (out.audio[k]?.src   ?? (AUDIO_BASE + entry.word + "-" + k + ".mp3"))
+            };
+          }
+        }
+      }
+      return out;
+    }
+
+    function render(){
+      grid.innerHTML = '';
+      const q = searchInput.value.trim().toLowerCase();
+      state.filtered = DATA.map(applyAdminEdits).filter(d => d.word.toLowerCase().includes(q));
+
+      state.filtered.forEach((d, idx) => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        const ids = Object.fromEntries(variantKeys.map(k => [k, `${k}_${idx}`]));
+
+        const variantsHTML = variantKeys.map(k => d.audio && d.audio[k] ? `
+          <div class="option">
+            <label>${k}: ${escapeHTML(d.audio[k].label)}</label>
+            <div class="btns">
+              <button type="button" onclick="play('${ids[k]}')">Play</button>
+              <audio id="${ids[k]}" preload="none" src="${d.audio[k].src}"></audio>
+            </div>
+          </div>
+        ` : '<div></div>').join('');
+
+        const selectOptions = ['<option value="">— Select —</option>']
+          .concat(variantKeys.map(k => d.audio && d.audio[k] ? `<option value="${k}">${k}: ${escapeHTML(d.audio[k].label)}</option>` : ''))
+          .concat('<option value="Other">Other / none of these</option>')
+          .join('');
+
+        card.innerHTML = `
+          <h3>${d.word}</h3>
+          <p class="ipa">${d.ipa ? escapeHTML(d.ipa) : ''}</p>
+          <div class="row">${variantsHTML}</div>
+          <div class="select-wrap">
+            <span class="small">Your choice</span>
+            <select data-word="${encodeURIComponent(d.word)}">${selectOptions}</select>
+            <button type="button" class="good saveBtn">Save</button>
+          </div>
+        `;
+        grid.appendChild(card);
+
+        card.querySelector('.saveBtn').addEventListener('click', () => {
+          const sel = card.querySelector('select');
+          const w = decodeURIComponent(sel.getAttribute('data-word'));
+          const v = sel.value;
+          if (!v) { notify(`No choice selected for “${w}”.`); return; }
+          state.selections[w] = v;
+          saveSelections();
+          notify(`Saved “${w}” → ${v}.`);
+        });
+      });
+      updateCounters();
+    }
+
+    searchInput.addEventListener('input', render);
+
+    exportBtn.addEventListener('click', () => {
+      const blob = new Blob([JSON.stringify(state.selections, null, 2)], {type: 'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'pronunciation-selections.json'; a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    exportDataBtn.addEventListener('click', () => {
+      const finalData = DATA.map(applyAdminEdits);
+      const blob = new Blob([JSON.stringify(finalData, null, 2)], {type: 'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'pronunciation-data.json'; a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    toggleEditBtn.addEventListener('click', () => {
+      state.edit = !state.edit;
+      toggleEditBtn.textContent = state.edit ? "Disable Edit Mode" : "Enable Edit Mode";
+      document.querySelectorAll('.admin').forEach(el => el.classList.toggle('hidden', !state.edit));
+    });
+  </script>
+</body>
+</html>
