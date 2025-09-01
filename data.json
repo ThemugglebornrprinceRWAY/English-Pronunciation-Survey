@@ -1164,11 +1164,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "riːflɛks",
+        "label": "/ˈriːflɛks/",
         "src": "audio/reflex-a.mp3"
       },
       "B": {
-        "label": "rɪˈflɛks",
+        "label": "/rɪˈflɛks/",
         "src": "audio/reflex-b.mp3"
       }
     }
