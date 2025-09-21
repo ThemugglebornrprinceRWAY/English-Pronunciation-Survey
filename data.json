@@ -38,7 +38,7 @@
         "src": "audio/laboratory-a.mp3"
       },
       "B": {
-        "label": "/ˈlæbrətɔːri/",
+        "label": "/ˈlabrətɔːri/",
         "src": "audio/laboratory-b.mp3"
       },
       "C": {
@@ -70,15 +70,15 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈfaɪnæns/",
+        "label": "/ˈfaɪnans/",
         "src": "audio/finance-a.mp3"
       },
       "B": {
-        "label": "/fɪˈnæns/",
+        "label": "/fɪˈnans/",
         "src": "audio/finance-b.mp3"
       },
       "C": {
-        "label": "/faɪˈnæns/",
+        "label": "/faɪˈnans/",
         "src": "audio/finance-c.mp3"
       }
     }
@@ -102,7 +102,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈkæfeɪ/",
+        "label": "/ˈkafeɪ/",
         "src": "audio/cafe-a.mp3"
       },
       "B": {
@@ -156,7 +156,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈstæns/",
+        "label": "/ˈstans/",
         "src": "audio/stance-a.mp3"
       },
       "B": {
@@ -188,15 +188,15 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈætməsfɪə/",
+        "label": "/ˈatməsfɪə/",
         "src": "audio/atmosphere-a.mp3"
       },
       "B": {
-        "label": "/ˈætmosfɪə/",
+        "label": "/ˈatmosfɪə/",
         "src": "audio/atmosphere-b.mp3"
       },
       "C": {
-        "label": "/ˈætmostfɪə/",
+        "label": "/ˈatmostfɪə/",
         "src": "audio/atmosphere-c.mp3"
       }
     }
@@ -376,7 +376,7 @@
         "src": "audio/croissant-b.mp3"
       },
       "C": {
-        "label": "/ˈkwæsɒ̃/",
+        "label": "/ˈkwasɒ̃/",
         "src": "audio/croissant-c.mp3"
       },
       "D": {
@@ -390,11 +390,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "ˈvæleɪ",
+        "label": "ˈvaleɪ",
         "src": "audio/valet-a.mp3"
       },
       "B": {
-        "label": "ˈvælɪt",
+        "label": "ˈvalɪt",
         "src": "audio/valet-b.mp3"
       }
     }
@@ -450,11 +450,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/faɪˈnænʃl/",
+        "label": "/faɪˈnanʃl/",
         "src": "audio/financial-a.mp3"
       },
       "B": {
-        "label": "/fɪˈnænʃl/",
+        "label": "/fɪˈnanʃl/",
         "src": "audio/financial-b.mp3"
       }
     }
@@ -478,7 +478,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": " /ˈɑː.mənd/",
+        "label": " /ˈɑːmənd/",
         "src": "audio/almond-a.mp3"
       },
       "B": {
@@ -522,11 +522,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈsæmən/",
+        "label": "/ˈsamən/",
         "src": "audio/salmon-a.mp3"
       },
       "B": {
-        "label": "/ˈsælmən/",
+        "label": "/ˈsalmən/",
         "src": "audio/salmon-b.mp3"
       },
       "C": {
@@ -606,7 +606,7 @@
         "src": "audio/status-a.mp3"
       },
       "B": {
-        "label": "/ˈstæt.əs/",
+        "label": "/ˈstat.əs/",
         "src": "audio/status-b.mp3"
       }
     }
@@ -800,11 +800,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/læm/",
+        "label": "/lam/",
         "src": "audio/lamb-a.mp3"
       },
       "B": {
-        "label": "/læmb/",
+        "label": "/lamb/",
         "src": "audio/lamb-b.mp3"
       }
     }
@@ -1136,7 +1136,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈnærətɪv/",
+        "label": "/ˈnarətɪv/",
         "src": "audio/narrative-a.mp3"
       },
       "B": {
@@ -1206,15 +1206,15 @@
     "ipa": "/ˈæsmə/",
     "audio": {
       "A": {
-        "label": "/ˈæsmə/",
+        "label": "/ˈasmə/",
         "src": "audio/asthma-a.mp3"
       },
       "B": {
-        "label": "/'æsθmə/",
+        "label": "/'asθmə/",
         "src": "audio/asthma-b.mp3"
       },
       "C": {
-        "label": "/ˈæzmə/",
+        "label": "/ˈazmə/",
         "src": "audio/asthma-c.mp3"
       },
       "D": {
@@ -1376,7 +1376,7 @@
         "src": "audio/circumstance-a.mp3"
       },
       "B": {
-        "label": "/ˈsɜːkəmstæns/",
+        "label": "/ˈsɜːkəmstans/",
         "src": "audio/circumstance-b.mp3"
       },
       "C": {
@@ -1390,11 +1390,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "ˈprəʊv(ə)n",
+        "label": "ˈprəʊvən",
         "src": "audio/proven-a.mp3"
       },
       "B": {
-        "label": "ˈpruːv(ə)n",
+        "label": "ˈpruːvən",
         "src": "audio/proven-b.mp3"
       }
     }
@@ -1404,11 +1404,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈmærid/",
+        "label": "/ˈmarid/",
         "src": "audio/married-a.mp3"
       },
       "B": {
-        "label": "/ˈmærɪd/",
+        "label": "/ˈmarɪd/",
         "src": "audio/married-b.mp3"
       }
     }
@@ -1472,7 +1472,7 @@
         "src": "audio/comrade-a.mp3"
       },
       "B": {
-        "label": "/ˈkɒmræd/",
+        "label": "/ˈkɒmrad/",
         "src": "audio/comrade-b.mp3"
       },
       "C": {
@@ -1550,11 +1550,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈhærəs/",
+        "label": "/ˈharəs/",
         "src": "audio/harass-a.mp3"
       },
       "B": {
-        "label": "/həˈræs/",
+        "label": "/həˈras/",
         "src": "audio/harass-b.mp3"
       }
     }
@@ -1564,19 +1564,19 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈæb.sə.luːt/",
+        "label": "/ˈab.sə.luːt/",
         "src": "audio/absolute-a.mp3"
       },
       "B": {
-        "label": "/æb.səˈluːt/",
+        "label": "/ab.səˈluːt/",
         "src": "audio/absolute-b.mp3"
       },
       "C": {
-        "label": "/ˈæb.sə.ljuːt/",
+        "label": "/ˈab.sə.ljuːt/",
         "src": "audio/absolute-c.mp3"
       },
       "D": {
-        "label": "/æb.səˈljuːt/",
+        "label": "/ab.səˈljuːt/",
         "src": "audio/absolute-d.mp3"
       }
     }
@@ -1600,7 +1600,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ɪkˈstrævəɡənt/",
+        "label": "/ɪkˈstravəɡənt/",
         "src": "audio/extravagant-a.mp3"
       },
       "B": {
@@ -1734,11 +1734,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/mæɡˈnetɪk/",
+        "label": "/maɡˈnetɪk/",
         "src": "audio/magnetic-a.mp3"
       },
       "B": {
-        "label": "/ˈmæɡnetɪk/",
+        "label": "/ˈmaɡnetɪk/",
         "src": "audio/magnetic-b.mp3"
       },
       "C": {
