@@ -210,7 +210,7 @@
 
         const selectOptions = ['<option value="">— Select —</option>']
           .concat(variantKeys.map(k => d.audio && d.audio[k] ? `<option value="${k}">${k}: ${escapeHTML(d.audio[k].label)}</option>` : ''))
-          .concat('<option value="Other">Other / none of these</option>')
+          .concat('<option value="Other">Other | None of These</option>')
           .join('');
 
         card.innerHTML = `
@@ -265,4 +265,5 @@
   </script>
 </body>
 </html>
+
 
