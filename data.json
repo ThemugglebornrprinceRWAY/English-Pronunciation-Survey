@@ -146,7 +146,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈɑsɑm/",
+        "label": "/ˈɑːsɑːm/",
         "src": "audio/assam-a.mp3"
       },
       "B": {
@@ -154,7 +154,7 @@
         "src": "audio/assam-b.mp3"
       },
       "C": {
-        "label": "/əsɑm/",
+        "label": "/əsɑːm/",
         "src": "audio/assam-c.mp3"
       },
       "D": {
@@ -162,7 +162,7 @@
         "src": "audio/assam-d.mp3"
       },
       "E": {
-        "label": "/ɑˈsæm/",
+        "label": "/ɑːˈsæm/",
         "src": "audio/assam-e.mp3"
       }
     }
