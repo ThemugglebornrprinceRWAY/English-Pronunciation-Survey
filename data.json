@@ -1206,6 +1206,10 @@
       "C": {
         "label": "/ˈrepətaɪə/",
         "src": "audio/repertoire-c.mp3"
+      },
+      "D": {
+        "label": "/ˈrepətɒɪə/",
+        "src": "audio/repertoire-d.mp3"
       }
     }
   },
