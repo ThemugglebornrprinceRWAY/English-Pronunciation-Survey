@@ -758,6 +758,7 @@
       "B": {
         "label": "/drɑʊt/",
         "src": "audio/draught-b.mp3"
+      },
       "C": {
         "label": "/draʊt/",
         "src": "audio/draught-c.mp3"
@@ -779,6 +780,7 @@
       "C": {
         "label": "/drɒft/",
         "src": "audio/drought-c.mp3"
+      },
       "D": {
         "label": "/drɒt/",
         "src": "audio/drought-d.mp3"
