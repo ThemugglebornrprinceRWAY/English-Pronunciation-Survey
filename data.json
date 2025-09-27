@@ -1762,6 +1762,14 @@
       "D": {
         "label": "/æbsəˈljuːt/",
         "src": "audio/absolute-d.mp3"
+      },
+      "E": {
+        "label": "/æbzəˈljuːt/",
+        "src": "audio/absolute-e.mp3"
+      },
+      "F": {
+        "label": "/æbzəˈluːt/",
+        "src": "audio/absolute-f.mp3"
       }
     }
   },
