@@ -4,27 +4,27 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/lefˈtɛnənt/",
+        "label": "/lefˈtenənt/",
         "src": "audio/lieutenant-a.mp3"
       },
       "B": {
-        "label": "/luːˈtɛnənt/",
+        "label": "/luːˈtenənt/",
         "src": "audio/lieutenant-b.mp3"
       },
       "C": {
-        "label": "/ljuːˈtɛnənt/",
+        "label": "/ljuːˈtenənt/",
         "src": "audio/lieutenant-c.mp3"
       },
       "D": {
-        "label": "/ˈleftɛnənt/",
+        "label": "/ˈleftenənt/",
         "src": "audio/lieutenant-d.mp3"
       },
       "E": {
-        "label": "/ˈljuːtɛnənt/",
+        "label": "/ˈljuːtenənt/",
         "src": "audio/lieutenant-e.mp3"
       },
       "F": {
-        "label": "/ˈluːtɛnənt/",
+        "label": "/ˈluːtenənt/",
         "src": "audio/lieutenant-f.mp3"
       }
     }
@@ -256,7 +256,7 @@
         "src": "audio/transform-a.mp3"
       },
       "B": {
-        "label": "/træːnsˈfɔːm/",
+        "label": "/trænsˈfɔːm/",
         "src": "audio/transform-b.mp3"
       },
       "C": {
@@ -264,7 +264,7 @@
         "src": "audio/transform-c.mp3"
       },
       "D": {
-        "label": "/ˈtræːnsfɔːm/",
+        "label": "/ˈtrænsfɔːm/",
         "src": "audio/transform-d.mp3"
       }
     }
@@ -396,7 +396,7 @@
         "src": "audio/croissant-b.mp3"
       },
       "C": {
-        "label": "/ˈkwasɒ̃/",
+        "label": "/ˈkwæsɒ̃/",
         "src": "audio/croissant-c.mp3"
       },
       "D": {
@@ -410,11 +410,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈvaleɪ/",
+        "label": "/ˈvæleɪ/",
         "src": "audio/valet-a.mp3"
       },
       "B": {
-        "label": "/ˈvalɪt/",
+        "label": "/ˈvælɪt/",
         "src": "audio/valet-b.mp3"
       },
       "C": {
@@ -1064,6 +1064,18 @@
       "B": {
         "label": "/ˈdʒɒɡrəfɪkl/",
         "src": "audio/geographical-b.mp3"
+      },
+      "C": {
+        "label": "/ˌdʒiːəˈɡrɑfɪkl/",
+        "src": "audio/geographical-c.mp3"
+      },
+      "D": {
+        "label": "/ˈdʒiːəɡrɑfɪkl/",
+        "src": "audio/geographical-d.mp3"
+      },
+      "E": {
+        "label": "/ˈdʒiːəɡræfɪkl/",
+        "src": "audio/geographical-e.mp3"
       }
     }
   },
@@ -1280,11 +1292,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈriːflɛks/",
+        "label": "/ˈriːfleks/",
         "src": "audio/reflex-a.mp3"
       },
       "B": {
-        "label": "/rɪˈflɛks/",
+        "label": "/rɪˈfleks/",
         "src": "audio/reflex-b.mp3"
       }
     }
@@ -1544,11 +1556,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈmarid/",
+        "label": "/ˈmærid/",
         "src": "audio/married-a.mp3"
       },
       "B": {
-        "label": "/ˈmarɪd/",
+        "label": "/ˈmærɪd/",
         "src": "audio/married-b.mp3"
       }
     }
