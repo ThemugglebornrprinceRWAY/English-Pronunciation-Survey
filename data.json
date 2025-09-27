@@ -4,7 +4,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/lɛfˈtɛnənt/",
+        "label": "/lefˈtɛnənt/",
         "src": "audio/lieutenant-a.mp3"
       },
       "B": {
@@ -16,7 +16,7 @@
         "src": "audio/lieutenant-c.mp3"
       },
       "D": {
-        "label": "/ˈlɛftɛnənt/",
+        "label": "/ˈleftɛnənt/",
         "src": "audio/lieutenant-d.mp3"
       },
       "E": {
@@ -34,7 +34,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ləˈbɒrət(ə)ri/",
+        "label": "/ləˈbɒrətəri/",
         "src": "audio/laboratory-a.mp3"
       },
       "B": {
@@ -88,6 +88,10 @@
       "C": {
         "label": "/faɪˈnæns/",
         "src": "audio/finance-c.mp3"
+      },
+      "D": {
+        "label": "/ˈfɪnæns/",
+        "src": "audio/finance-d.mp3"
       }
     }
   },
@@ -236,6 +240,10 @@
       "E": {
         "label": "/ˈbʌkɪt/",
         "src": "audio/bouquet-e.mp3"
+      },
+      "F": {
+        "label": "/ˈbʌkeɪ/",
+        "src": "audio/bouquet-f.mp3"
       }
     }
   },
@@ -366,11 +374,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˌsəʊʃiəʊ/",
+        "label": "/ˈsəʊʃiəʊ/",
         "src": "audio/socio-a.mp3"
       },
       "B": {
-        "label": "/ˌsəʊsiəʊ/",
+        "label": "/ˈsəʊsiəʊ/",
         "src": "audio/socio-b.mp3"
       }
     }
@@ -402,12 +410,16 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "ˈvaleɪ",
+        "label": "/ˈvaleɪ/",
         "src": "audio/valet-a.mp3"
       },
       "B": {
-        "label": "ˈvalɪt",
+        "label": "/ˈvalɪt/",
         "src": "audio/valet-b.mp3"
+      },
+      "C": {
+        "label": "/væˈleɪ/",
+        "src": "audio/valet-c.mp3"
       }
     }
   },
@@ -468,6 +480,14 @@
       "B": {
         "label": "/fɪˈnænʃl/",
         "src": "audio/financial-b.mp3"
+      },
+      "C": {
+        "label": "/ˈfɪnænʃl/",
+        "src": "audio/financial-c.mp3"
+      },
+      "D": {
+        "label": "/ˈfaɪnænʃl/",
+        "src": "audio/financial-d.mp3"
       }
     }
   },
@@ -476,7 +496,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "ˈlɛʒə",
+        "label": "ˈleʒə",
         "src": "audio/leisure-a.mp3"
       },
       "B": {
@@ -574,19 +594,19 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈʃɛdjuːl/",
+        "label": "/ˈʃedjuːl/",
         "src": "audio/schedule-a.mp3"
       },
       "B": {
-        "label": "/ˈskɛdjuːl/",
+        "label": "/ˈskedjuːl/",
         "src": "audio/schedule-b.mp3"
       },
       "C": {
-        "label": "/ˈskɛdʒuːl/",
+        "label": "/ˈskedʒuːl/",
         "src": "audio/schedule-c.mp3"
       },
       "D": {
-        "label": " /ˈʃɛdʒuːl/",
+        "label": " /ˈʃedʒuːl/",
         "src": "audio/schedule-d.mp3"
       }
     }
@@ -648,6 +668,14 @@
       "B": {
         "label": "/əˈzjuːm/",
         "src": "audio/assume-b.mp3"
+      },
+      "C": {
+        "label": "/ˈæzjuːm/",
+        "src": "audio/assume-c.mp3"
+      },
+      "D": {
+        "label": "/ˈæsjuːm/",
+        "src": "audio/assume-d.mp3"
       }
     }
   },
@@ -810,6 +838,14 @@
       "B": {
         "label": "/kaɪˈnetɪk/",
         "src": "audio/kinetic-b.mp3"
+      },
+      "C": {
+        "label": "/ˈkaɪnetɪk/",
+        "src": "audio/kinetic-c.mp3"
+     },
+      "D": {
+        "label": "/ˈkɪnetɪk/",
+        "src": "audio/kinetic-d.mp3"
       }
     }
   },
@@ -866,6 +902,14 @@
       "B": {
         "label": "/ˈdeveləpt/",
         "src": "audio/developed-b.mp3"
+      },
+      "C": {
+        "label": "/ˈdeveləpd/",
+        "src": "audio/developed-c.mp3"
+      },
+      "D": {
+        "label": "/dɪˈveləpd/",
+        "src": "audio/developed-d.mp3"
       }
     }
   },
@@ -928,7 +972,7 @@
         "src": "audio/autonomic-a.mp3"
       },
       "B": {
-        "label": "/ˌɔːˈtonɒmɪk/",
+        "label": "/ˌɔːˈtɒnɒmɪk/",
         "src": "audio/autonomic-b.mp3"
       }
     }
@@ -1054,6 +1098,14 @@
       "D": {
         "label": "/ˈwʊmʊn/",
         "src": "audio/women-d.mp3"
+      },
+      "E": {
+        "label": "/ˈwʊmen/",
+        "src": "audio/women-e.mp3"
+      },
+      "F": {
+        "label": "/ˈwɪmen/",
+        "src": "audio/women-f.mp3"
       }
     }
   },
@@ -1188,6 +1240,10 @@
       "B": {
         "label": "/nəˈreɪtɪv/",
         "src": "audio/narrative-b.mp3"
+      },
+      "C": {
+        "label": "/ˈnæreɪtɪv/",
+        "src": "audio/narrative-c.mp3"
       }
     }
   },
@@ -1252,6 +1308,14 @@
       "B": {
         "label": "/vɜːˈbætɪm/",
         "src": "audio/verbatim-b.mp3"
+      },
+      "C": {
+        "label": "/ˈvɜːbætɪm/",
+        "src": "audio/verbatim-c.mp3"
+      },
+      "D": {
+        "label": "/ˈvɜːbeɪtɪm/",
+        "src": "audio/verbatim-d.mp3"
       }
     }
   },
@@ -1292,6 +1356,14 @@
       "B": {
         "label": "/ɪnˈhæns/",
         "src": "audio/enhance-b.mp3"
+      },
+      "C": {
+        "label": "/ˈenhæns/",
+        "src": "audio/enhance-c.mp3"
+      },
+      "D": {
+        "label": "/ˈenhɑːns/",
+        "src": "audio/enhance-d.mp3"
       }
     }
   },
@@ -1328,12 +1400,20 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/dɪˈrɛktə/",
+        "label": "/dɪˈrektə/",
         "src": "audio/director-a.mp3"
       },
       "B": {
-        "label": "/daɪˈrɛktə/",
+        "label": "/daɪˈrektə/",
         "src": "audio/director-b.mp3"
+      },
+      "C": {
+        "label": "/ˈdaɪrektə/",
+        "src": "audio/director-c.mp3"
+      },
+      "D": {
+        "label": "/ˈdɪrektə/",
+        "src": "audio/director-d.mp3"
       }
     }
   },
@@ -1584,11 +1664,11 @@
         "src": "audio/environment-b.mp3"
       },
       "C": {
-        "label": "/ɪnˈvaɪənmənt/",
+        "label": "/ˈenvaɪənmənt/",
         "src": "audio/environment-c.mp3"
       },
       "D": {
-        "label": "/ɪnˈvɪrɒnmənt/",
+        "label": "/ˈenvɪrɒnmənt/",
         "src": "audio/environment-d.mp3"
       }
     }
@@ -1666,7 +1746,7 @@
         "src": "audio/extravagant-a.mp3"
       },
       "B": {
-        "label": "/ɪkstrɑˈveɪɡənt/",
+        "label": "/ˈekstrɑˌveɪɡənt/",
         "src": "audio/extravagant-b.mp3"
       }
     }
@@ -1682,6 +1762,14 @@
       "B": {
         "label": "/nɪˈɡəʊsieɪt/",
         "src": "audio/negotiate-b.mp3"
+      },
+      "C": {
+        "label": "/ˈneɡəʊsieɪt/",
+        "src": "audio/negotiate-c.mp3"
+      },
+      "C": {
+        "label": "/ˈneɡəʊʃieɪt/",
+        "src": "audio/negotiate-c.mp3"
       }
     }
   },
@@ -1696,6 +1784,14 @@
       "B": {
         "label": "/nɪˌɡəʊsiˈeɪʃn/",
         "src": "audio/negotiation-b.mp3"
+      },
+      "C": {
+        "label": "/ˈneɡəʊsieɪʃn/",
+        "src": "audio/negotiation-c.mp3"
+      },
+      "D": {
+        "label": "/ˈneɡəʊʃieɪʃn/",
+        "src": "audio/negotiation-d.mp3"
       }
     }
   },
@@ -1752,6 +1848,14 @@
       "B": {
         "label": "/daɪˈlemə/",
         "src": "audio/dilemma-b.mp3"
+      },
+      "C": {
+        "label": "/ˈdaɪlemə/",
+        "src": "audio/dilemma-c.mp3"
+      },
+      "D": {
+        "label": "/ˈdɪlemə/",
+        "src": "audio/dilemma-d.mp3"
       }
     }
   },
