@@ -362,11 +362,11 @@
         "src": "audio/vehicle-b.mp3"
       },
       "C": {
-        "label": "/ˈveɪːɪkəl/",
+        "label": "/ˈveɪkəl/",
         "src": "audio/vehicle-c.mp3"
       },
       "D": {
-        "label": "ˈveɪːhɪkəl",
+        "label": "ˈveɪhɪkəl",
         "src": "audio/vehicle-d.mp3"
       }
     }
