@@ -480,7 +480,7 @@
         "src": "audio/corps-a.mp3"
       },
       "B": {
-        "label": "/kɔpsː/",
+        "label": "/kɔps/",
         "src": "audio/corps-b.mp3"
       }
     }
@@ -530,7 +530,7 @@
         "src": "audio/almond-a.mp3"
       },
       "B": {
-        "label": " /ˈɑlmənd/",
+        "label": " /ˈɑːlmənd/",
         "src": "audio/almond-b.mp3"
       },
       "C": {
@@ -538,11 +538,11 @@
         "src": "audio/almond-c.mp3"
       },
       "D": {
-        "label": "/ˈɔlmənd/",
+        "label": "/ˈɔːlmənd/",
         "src": "audio/almond-d.mp3"
       },
       "E": {
-        "label": "/ˈɔmənd/",
+        "label": "/ˈɔːmənd/",
         "src": "audio/almond-e.mp3"
       },
       "F": {
@@ -578,11 +578,11 @@
         "src": "audio/salmon-b.mp3"
       },
       "C": {
-        "label": "/ˈsɑmən/",
+        "label": "/ˈsɑːmən/",
         "src": "audio/salmon-c.mp3"
       },
       "D": {
-        "label": "/ˈsɑlmən/",
+        "label": "/ˈsɑːlmən/",
         "src": "audio/salmon-d.mp3"
       },
       "E": {
@@ -772,7 +772,7 @@
         "src": "audio/draught-a.mp3"
       },
       "B": {
-        "label": "/drɑʊt/",
+        "label": "/drɑːʊt/",
         "src": "audio/draught-b.mp3"
       },
       "C": {
@@ -1370,11 +1370,11 @@
         "src": "audio/asthma-c.mp3"
       },
       "D": {
-        "label": "/ˈɑsθmə/",
+        "label": "/ˈɑːsθmə/",
         "src": "audio/asthma-d.mp3"
       },
       "E": {
-        "label": "/ˈɑsmə/",
+        "label": "/ˈɑːsmə/",
         "src": "audio/asthma-e.mp3"
       }
     }
@@ -1494,7 +1494,7 @@
         "src": "audio/sadist-b.mp3"
       },
       "C": {
-        "label": "/ˈsɑdɪst/",
+        "label": "/ˈsɑːdɪst/",
         "src": "audio/sadist-c.mp3"
       }
     }
@@ -1646,6 +1646,10 @@
       "C": {
         "label": "/ˈkɒmrəd/",
         "src": "audio/comrade-c.mp3"
+      },
+      "D": {
+        "label": "/ˈkɒmrɑːd/",
+        "src": "audio/comrade-d.mp3"
       }
     }
   },
@@ -1780,7 +1784,7 @@
         "src": "audio/extravagant-a.mp3"
       },
       "B": {
-        "label": "/ˈekstrɑˌveɪɡənt/",
+        "label": "/ˈekstrɑːˌveɪɡənt/",
         "src": "audio/extravagant-b.mp3"
       }
     }
