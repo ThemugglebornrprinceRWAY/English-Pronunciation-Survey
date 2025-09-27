@@ -56,7 +56,7 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈʒːɒnrə/",
+        "label": "/ˈʒɒnrə/",
         "src": "audio/genre-a.mp3"
       },
       "B": {
@@ -70,6 +70,10 @@
       "D": {
         "label": "/ˈdʒenrə/",
         "src": "audio/genre-d.mp3"
+      },
+      "E": {
+        "label": "/ˈʒɒ̃rə/",
+        "src": "audio/genre-e.mp3"
       }
     }
   },
