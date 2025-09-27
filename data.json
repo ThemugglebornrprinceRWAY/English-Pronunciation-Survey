@@ -194,8 +194,20 @@
         "src": "audio/sanskrit-b.mp3"
       },
       "C": {
-        "label": "/ˈsɑnskrɪt/",
+        "label": "/ˈsɑːnskrɪt/",
         "src": "audio/sanskrit-c.mp3"
+      },
+      "D": {
+        "label": "/ˈsænskrɪt̪/",
+        "src": "audio/sanskrit-d.mp3"
+      },
+      "E": {
+        "label": "/ˈsənskrɪt̪/",
+        "src": "audio/sanskrit-e.mp3"
+      },
+      "F": {
+        "label": "/ˈsɑːnskrɪt̪/",
+        "src": "audio/sanskrit-f.mp3"
       }
     }
   },
