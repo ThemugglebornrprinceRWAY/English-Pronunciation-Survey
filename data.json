@@ -60,15 +60,15 @@
         "src": "audio/genre-a.mp3"
       },
       "B": {
-        "label": "/ˈdʒːɒnrə/",
+        "label": "/ˈdʒɒnrə/",
         "src": "audio/genre-b.mp3"
       },
       "C": {
-        "label": "/ˈdʒːenə/",
+        "label": "/ˈdʒenə/",
         "src": "audio/genre-c.mp3"
       },
       "D": {
-        "label": "/ˈdʒːenrə/",
+        "label": "/ˈdʒenrə/",
         "src": "audio/genre-d.mp3"
       }
     }
