@@ -1968,6 +1968,34 @@
       "C": {
         "label": "/məɡˈnetɪk/",
         "src": "audio/magnetic-c.mp3"
+  },
+  {
+    "word": "Garage",
+    "ipa": "",
+    "audio": {
+      "A": {
+        "label": "/ˈɡærɑːʒ/",
+        "src": "audio/garage-a.mp3"
+      },
+      "B": {
+        "label": "/ˈɡærɪdʒ/",
+        "src": "audio/garage-b.mp3"
+      },
+      "C": {
+        "label": "/ɡəˈrɑːʒ/",
+        "src": "audio/garage-c.mp3"
+      },
+      "D": {
+        "label": "/ɡəˈrɑːdʒ/",
+        "src": "audio/garage-d.mp3"
+      },
+      "E": {
+        "label": "/ˈɡærɑːdʒ/",
+        "src": "audio/garage-e.mp3"
+      },
+      "F": {
+        "label": "/ˈɡæreɪdʒ/",
+        "src": "audio/garage-f.mp3"
       }
     }
   }
