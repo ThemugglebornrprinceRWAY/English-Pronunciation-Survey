@@ -220,15 +220,15 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈætməsfɪə/",
+        "label": "/ˈætməsfɪə(r)/",
         "src": "audio/atmosphere-a.mp3"
       },
       "B": {
-        "label": "/ˈætmɒsfɪə/",
+        "label": "/ˈætmɒsfɪə(r)/",
         "src": "audio/atmosphere-b.mp3"
       },
       "C": {
-        "label": "/ˈætmɒstfɪə/",
+        "label": "/ˈætmɒstfɪə(r)/",
         "src": "audio/atmosphere-c.mp3"
       }
     }
@@ -326,11 +326,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/pʊə/ ",
+        "label": "/pʊə(r)/ ",
         "src": "audio/poor-a.mp3"
       },
       "B": {
-        "label": "/pɔː/",
+        "label": "/pɔː(r)/",
         "src": "audio/poor-b.mp3"
       }
     }
@@ -340,11 +340,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ʃʊə/",
+        "label": "/ʃʊə(r)/",
         "src": "audio/sure-a.mp3"
       },
       "B": {
-        "label": "/ʃɔː/",
+        "label": "/ʃɔː(r)/",
         "src": "audio/sure-b.mp3"
       }
     }
@@ -512,11 +512,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "ˈleʒə",
+        "label": "/ˈleʒə(r)/",
         "src": "audio/leisure-a.mp3"
       },
       "B": {
-        "label": "ˈliːʒə",
+        "label": "/ˈliːʒə(r)/",
         "src": "audio/leisure-b.mp3"
       }
     }
@@ -556,11 +556,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈnaɪðə/",
+        "label": "/ˈnaɪðə(r)/",
         "src": "audio/neither-a.mp3"
       },
       "B": {
-        "label": "/ˈniːðə/",
+        "label": "/ˈniːðə(r)/",
         "src": "audio/neither-b.mp3"
       }
     }
@@ -700,15 +700,15 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈkwaɪə/",
+        "label": "/ˈkwaɪə(r)/",
         "src": "audio/choir-a.mp3"
       },
       "B": {
-        "label": "/ˈkɒɪə/",
+        "label": "/ˈkɒɪə(r)/",
         "src": "audio/choir-b.mp3"
       },
       "C": {
-        "label": "/ˈkɒə/",
+        "label": "/ˈkɒə(r)/",
         "src": "audio/choir-c.mp3"
       }
     }
@@ -740,11 +740,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈaɪðə/",
+        "label": "/ˈaɪðə(r)/",
         "src": "audio/either-a.mp3"
       },
       "B": {
-        "label": "/ˈiːðə/",
+        "label": "/ˈiːðə(r)/",
         "src": "audio/either-b.mp3"
       }
     }
@@ -886,11 +886,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈplʌmə/",
+        "label": "/ˈplʌmə(r)/",
         "src": "audio/plumber-a.mp3"
       },
       "B": {
-        "label": "/ˈplʌmbə/",
+        "label": "/ˈplʌmbə(r)/",
         "src": "audio/plumber-b.mp3"
       }
     }
@@ -958,12 +958,20 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈkɪləmiːtə/",
+        "label": "/ˈkɪləmiːtə(r)/",
         "src": "audio/kilometre-a.mp3"
       },
       "B": {
-        "label": "/kɪˈlɒmɪtə/",
+        "label": "/kɪˈlɒmɪtə(r)/",
         "src": "audio/kilometre-b.mp3"
+      },
+      "C": {
+        "label": "/ˈkɪlɒmɪtə(r)/",
+        "src": "audio/kilometre-c.mp3"
+      },
+      "D": {
+        "label": "/ˈkɪlɒmiːtə(r)/",
+        "src": "audio/kilometre-d.mp3"
       }
     }
   },
@@ -1224,19 +1232,19 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/ˈrepətwɑː/",
+        "label": "/ˈrepətwɑː(r)/",
         "src": "audio/repertoire-a.mp3"
       },
       "B": {
-        "label": "/ˈrepətwaɪə/",
+        "label": "/ˈrepətwaɪə(r)/",
         "src": "audio/repertoire-b.mp3"
       },
       "C": {
-        "label": "/ˈrepətaɪə/",
+        "label": "/ˈrepətaɪə(r)/",
         "src": "audio/repertoire-c.mp3"
       },
       "D": {
-        "label": "/ˈrepətɒɪə/",
+        "label": "/ˈrepətɒɪə(r)/",
         "src": "audio/repertoire-d.mp3"
       }
     }
@@ -1438,19 +1446,19 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "/dɪˈrektə/",
+        "label": "/dɪˈrektə(r)/",
         "src": "audio/director-a.mp3"
       },
       "B": {
-        "label": "/daɪˈrektə/",
+        "label": "/daɪˈrektə(r)/",
         "src": "audio/director-b.mp3"
       },
       "C": {
-        "label": "/ˈdaɪrektə/",
+        "label": "/ˈdaɪrektə(r)/",
         "src": "audio/director-c.mp3"
       },
       "D": {
-        "label": "/ˈdɪrektə/",
+        "label": "/ˈdɪrektə(r)/",
         "src": "audio/director-d.mp3"
       }
     }
@@ -1562,11 +1570,11 @@
     "ipa": "",
     "audio": {
       "A": {
-        "label": "ˈprəʊvən",
+        "label": "/ˈprəʊvən/",
         "src": "audio/proven-a.mp3"
       },
       "B": {
-        "label": "ˈpruːvən",
+        "label": "/ˈpruːvən/",
         "src": "audio/proven-b.mp3"
       }
     }
