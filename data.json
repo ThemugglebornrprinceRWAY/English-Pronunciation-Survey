@@ -1950,6 +1950,10 @@
       "D": {
         "label": "/ˈɡʌvɜːnment/",
         "src": "audio/government-d.mp3"
+      },
+      "E": {
+        "label": "/ˈɡɒnment/",
+        "src": "audio/government-e.mp3"
       }
     }
   },
