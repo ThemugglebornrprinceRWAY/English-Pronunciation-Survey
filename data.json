@@ -2128,6 +2128,10 @@
       "C": {
         "label": "/ˈeɪʃiə/",
         "src": "audio/asia-c.mp3"
+      },
+      "D": {
+        "label": "/ˈeɪʒiə/",
+        "src": "audio/asia-d.mp3"
       }
     }
   },
