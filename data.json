@@ -1944,7 +1944,7 @@
         "src": "audio/government-b.mp3"
       },
       "C": {
-        "label": "/ˈɡʌnment/",
+        "label": "/ˈɡɜːnment/",
         "src": "audio/government-c.mp3"
       },
       "D": {
@@ -2046,20 +2046,6 @@
       "C": {
         "label": "/mɪsˈtʃiːvəs/",
         "src": "audio/mischievous-c.mp3"
-      }
-    }
-  },
-  {
-    "word": "Abacus",
-    "ipa": "",
-    "audio": {
-      "A": {
-        "label": "/ˈæbəkəs/",
-        "src": "audio/abacus-a.mp3"
-      },
-      "B": {
-        "label": "/əˈbækəs/",
-        "src": "audio/abacus-b.mp3"
       }
     }
   },
@@ -2262,7 +2248,7 @@
         "src": "audio/jaguar-a.mp3"
       },
       "B": {
-        "label": "//ˈdʒæɡwɑː(r)/",
+        "label": "/ˈdʒæɡwɑː(r)/",
         "src": "audio/jaguarr-b.mp3"
       }
     }
@@ -2300,6 +2286,10 @@
       "B": {
         "label": "/ˈaɪrən/",
         "src": "audio/iron-b.mp3"
+      },
+      "C": {
+        "label": "/ˈaɪɜːn/",
+        "src": "audio/iron-c.mp3"
       }
     }
   },
