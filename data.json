@@ -1690,6 +1690,22 @@
       "B": {
         "label": "/ˈmiːθaɪl/",
         "src": "audio/methyl-b.mp3"
+      },
+      "C": {
+        "label": "/ˈmɪθaɪl/",
+        "src": "audio/methyl-c.mp3"
+      },
+      "D": {
+        "label": "/ˈmeθaɪl/",
+        "src": "audio/methyl-d.mp3"
+      },
+      "E": {
+        "label": "/mɪˈθaɪl/",
+        "src": "audio/methyl-e.mp3"
+      },
+      "F": {
+        "label": "/ˈmiːθɪl/",
+        "src": "audio/methyl-f.mp3"
       }
     }
   },
